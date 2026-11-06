@@ -1,0 +1,21 @@
+# core data
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+
+# classical NLP (topics 2-8)
+nltk>=3.8
+spacy>=3.7
+textblob>=0.18
+gensim>=4.3
+pyLDAvis>=3.4
+scikit-learn>=1.4
+
+# notebooks
+jupyter
+ipykernel
+
+# quality
+pytest>=8.0
+ruff

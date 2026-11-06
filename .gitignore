@@ -1,0 +1,26 @@
+# python environment
+.venv/
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# data and models (too big, and may have license limits)
+data/raw/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+models/*
+!models/.gitkeep
+
+# secrets
+.env
+
+# mac / editors
+.DS_Store
+.vscode/
+
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
