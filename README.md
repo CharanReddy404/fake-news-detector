@@ -5,7 +5,17 @@ and transformers (DistilBERT), with a leakage audit and cross-dataset evaluation
 
 ## Status
 
-Work in progress: Phase 0 (setup) done.
+Work in progress.
+
+- Phase 0 (setup) done.
+- Phase 1 (data) done: ISOT and WELFake loaders in a shared format, with tests.
+  The WELFake label mapping was verified by reading samples; it is the opposite of
+  its published description. See [data/README.md](data/README.md).
+
+## Data
+
+Datasets are not committed. See [data/README.md](data/README.md) for download links,
+sizes, label definitions and known issues (source and formatting leaks).
 
 ## Setup
 
