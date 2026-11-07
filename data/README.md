@@ -32,7 +32,7 @@ Data files are not committed (see `.gitignore`). Download them into the folders 
     `tests/test_data.py::test_welfake_mapping_not_flipped`.
 - License: not clearly stated on the record; research use only
 - Known issues:
-  - Missing values: 558 titles, 39 texts (handled in Phase 2 cleaning)
+  - Missing values: 558 titles, 39 texts (handled in Phase 3 cleaning)
   - Merged from 4 sources including Reuters -> may overlap ISOT (deduplicate in Phase 10)
   - Labels come from the source site, not per-article fact-checking -> noisy
     (e.g. a Breitbart article is labelled real)
